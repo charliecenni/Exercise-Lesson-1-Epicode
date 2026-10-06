@@ -1,2 +1,2 @@
-# Exercise-Lesson-1-Epicode
-Challenge Basic HTML
+# Profile page- Epicode
+Challenge Basics of HTML and CSS
