@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+header{
+    background-image: url(/assets/img/pexels-gleb-lucky-77753534-12043226.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+h1{
+    color: white;
+    text-align: center;
+    font-weight: bold;
+}
+header div p{
+    text-align: center;
+}
+nav {
+    text-align: center;
+    font-weight: bold;
+}
+nav a{
+    color: gold;
+}
+nav a:hover{
+    color: white;
+}
+.green{
+    color: darkgreen;
+}
+.red{
+    color: red;
+}
+.italic{
+    font-style: italic;
+}
+section ul :first-child{
+    font-weight: bold;
+}
+thead th{
+    font-weight: bold;
+}
+label{
+    font-weight: bold;
+}
+select:focus, input:focus, textarea:focus{
+    background-color: black;
+    color: white;
+}
+button{
+    background-color: darkgreen;
+    color: white;
+    padding: 1% 10% 1% 10%;
+}
+span{
+    background-color: black;
+    color: white;
+    display: block;
+    padding: 2% 0 2% 0;
+    text-align: center;
+}
+

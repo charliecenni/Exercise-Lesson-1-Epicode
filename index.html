@@ -1,49 +1,58 @@
 <!DOCTYPE html>
 <html lang="it">
+    
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="assets\css\style.css">
+    
+    <title>Portfolio</title>
 </head>
 <header>
     <div>
-    <h1 id="inizio">Charlie Cenni</h1>
-    <p><strong>Studente Full Stack</strong> - corso Epicode 2026 </p>
+        <h1 id="inizio">Charlie Cenni</h1>
+        <p class="red"><strong>Studente Full Stack</strong> - corso Epicode 2026 </p>
     </div>
     <nav>
         <ul>
             <li><a href="#part1">Chi sono</a></li>
             <li><a href="#part2">Competenze</a></li>
-            <li><a href="#part3">Progetti</a>
+            <li><a href="#part3"></a></li>
+            <li><a href="#part4">Progetti</a>
                 <ul>
-                <li><a href="https://github.com/charliecenni/My-first-upload.git">Personal Website</a></li>
-                <li><a href="https://github.com/charliecenni/Ghost-Music.git">Form for Music Website</a></li>
+                    <li><a href="https://github.com/charliecenni/My-first-upload.git">Personal Website</a></li>
+                    <li><a href="https://github.com/charliecenni/Ghost-Music.git">Form for Music Website</a></li>
                 </ul>
             </li>
-            <li><a href="#part4">Contatti</a></li>
+            <li><a href="#part5">Contatti</a></li>
         </ul>
     </nav>
 </header>
+
 <body>
     <main>
         <section>
-            <img src="assets\unnamed-Photoroom.png" alt="Foto dello sviluppatore" width="200" height="200">
-            <h2 id="part1">Chi sono</h2>
-            <p>Mi chiamo Charlie Cenni e sto imparando a programmare. Studio sviluppo web con <b>Epicode</b> e ogni giorno aggiungo qualche cosa di nuovo a questa pagina. Ho un ottima propensione al lavoro di gruppo, mi piace leggere documentazione tecnica e capire come funzionano le cose. </p>
-            <p>Vivo a Bologna. Ho una formazione come Educatore alle differenze e ora sto cercando di cambiare settore. Cerco un primo ruolo come sviluppatore frontend</p>
+            <img src="assets/img/unnamed-Photoroom.png" alt="Foto dello sviluppatore" height="200" width="200">
+            <h2 id="part1" class="green">Chi sono</h2>
+            <p class="green italic">Mi chiamo Charlie Cenni e sto imparando a programmare. Studio sviluppo web con <b>Epicode</b> e ogni
+                giorno aggiungo qualche cosa di nuovo a questa pagina. Ho un ottima propensione al lavoro di gruppo, mi
+                piace leggere documentazione tecnica e capire come funzionano le cose. </p>
+            <p>Vivo a Bologna. Ho una formazione come Educatore alle differenze e ora sto cercando di cambiare settore.
+                Cerco un primo ruolo come sviluppatore frontend</p>
         </section>
         <section>
-            <h2 id="part2"> Competenze</h2>
+            <h2 id="part2" class="green"> Competenze</h2>
             <p>Le tecnologie che vedo durante le prime settimane di corso.</p>
             <ul>
                 <li>HTML - struttura delle pagine</li>
                 <li>CSS - sile di impaginazione</li>
                 <li>Git e GitHub - versionamento del codice</li>
             </ul>
-            <br><a href="#inizio">Torna su</a>
+            <br><a href="#inizio" class="red">Torna su</a>
         </section>
         <section>
-            <h2>Esperienze</h2>
+            <h2 id="part3" class="green">Esperienze</h2>
             <p>Un riepilogo del mio percorso formativo e lavorativo recente</p>
             <table>
                 <caption>Esperienze formative e lavorative</caption>
@@ -72,62 +81,59 @@
                     </tr>
                 </tbody>
             </table>
-            <br><a href="#inizio">Torna su</a>
+            <br><a href="#inizio" class="red">Torna su</a>
         </section>
         <section>
-            <h2 id="part3">Progetti</h2>
+            <h2 id="part4" class="green">Progetti</h2>
             <p> I lavori fatti durate le prime settimane di corso</p>
-           <div>
-            <h4>Pagina ricetta</h4>
-           <p>Una pagina con un titolo,ingredienti e procedura. Esercizio di markup semantico applicato a un contesto reale.</p>
-           <a href="javascript:void(0)">Vedi su GitHub</a>
-           </div>
-           <div>
-            <h4>Card di presentazione</h4>
-            <p>Un biglietto digitale con nome, ruolo e link ai social. Esercizio sintesi della struttura HTML</p>
-            <a href="javascript:void(0)">Vedi su GitHub</a>
-           </div>
-           <br><a href="#inizio">Torna su</a>
+            <div>
+                <h4>Pagina ricetta</h4>
+                <p>Una pagina con un titolo,ingredienti e procedura. Esercizio di markup semantico applicato a un
+                    contesto reale.</p>
+                <a href="javascript:void(0)">Vedi su GitHub</a>
+            </div>
+            <div>
+                <h4>Card di presentazione</h4>
+                <p>Un biglietto digitale con nome, ruolo e link ai social. Esercizio sintesi della struttura HTML</p>
+                <a href="javascript:void(0)">Vedi su GitHub</a>
+            </div>
+            <br><a href="#inizio" class="red">Torna su</a>
         </section>
         <section>
-            <h2 id="part4">Contattami</h2>
+            <h2 id="part5" class="green">Contattami</h2>
             <p>Compila il form per scrivermi. Ti rispondo entro 24h.</p>
-             <!-- <p>Sono presente su queste piattaforme professionali, dove puoi seguire i miei progetti e contattarmi.</p>
+            <!-- <p>Sono presente su queste piattaforme professionali, dove puoi seguire i miei progetti e contattarmi.</p>
             <p>Profilo GitHub: <a href="https://github.com/charliecenni">github.com/charliecenni</a></p>
             <p>Profilo Linkedin: <a href="www.linkedin.com/in/charlie-cenni-ab602721a">linkedin.com/in/charlie-cenni</a></p>  -->
             <form action="grazie.html" method="get">
-                <label for="name">Nome</label>
+                <label for="name" class="green">Nome</label>
                 <input type="text" placeholder="Il tuo nome" name="nome" id="nome">
-                <br><br><label for="email">Email</label>
+                <br><br><label for="email" class="green">Email</label>
                 <input type="email" id="clientEmail" name="clientEmail" placeholder="La tua email">
-                <br><br><label for="select">Motivo del contatto</label>
+                <br><br><label for="select" class="green">Motivo del contatto</label>
                 <select name="motivi contatto" id="motivi">
-                <option value="opzione1">Proposta di lavoro</option>
-                <option value="opzione2">Mantenimento di un progetto</option>
-                <option value="pzione3">Richiesta Info</option>
+                    <option value="opzione1">Proposta di lavoro</option>
+                    <option value="opzione2">Mantenimento di un progetto</option>
+                    <option value="opzione3">Richiesta Info</option>
                 </select>
-                <br><br><label for="date">Data preferita per la risposta</label>
-                <input type="date" id="callDate" name="callDate" >
-                <br><br><label for="messaggio">Messaggio</label>
-                <br><textarea
-						name="message"
-						id="message"
-						rows="6"
-						cols="80"
-                        placeholder="Inserisci qui il tuo messaggio"
-					></textarea>
-                    <br>
-                    <input type="checkbox" id="privacy" name="privacy">
-                    <label for="privacy">Accetto di esser ricontattato all'indirizzo indicato</label>
+                <br><br><label for="date" class="green">Data preferita per la risposta</label>
+                <input type="date" id="callDate" name="callDate">
+                <br><br><label for="messaggio" class="green">Messaggio</label>
+                <br><textarea name="message" id="message" rows="6" cols="80"
+                    placeholder="Inserisci qui il tuo messaggio"></textarea>
+                <br>
+                <input type="checkbox" id="privacy" name="privacy" value="yes">
+                <label for="privacy" class="green">Accetto di esser ricontattato all'indirizzo indicato</label>
 
-                    <br><br><button type="submit" id="sendForm">INVIA</button>
+                <br><br><button type="submit" id="sendForm" >INVIA</button>
             </form>
-            <br><a href="#inizio">Torna su</a>
+            <br><a href="#inizio" class="red">Torna su</a>
         </section>
     </main>
     <footer>
         <br><span> &copy; 2026 Charlie Cenni</span>
     </footer>
-    
+
 </body>
+
 </html>
