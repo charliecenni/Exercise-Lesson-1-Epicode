@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 body{
     font-family: 'Roboto', sans-serif;
+    background-color: rgb(235, 235, 231);
 }
 
 header{
@@ -13,19 +14,60 @@ h1{
     text-align: center;
     font-weight: bold;
 }
+ .italic::first-letter{
+    font-size: xx-large;
+    font-weight: bolder;
+}
 header div p{
     text-align: center;
 }
 nav {
-    text-align: center;
+    
     font-weight: bold;
+    
+}
+nav li{
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+
+    
+}
+nav ul li:not(:last-child){
+    margin: 1em;
 }
 nav a{
-    color: gold;
+    color: rgba(255, 217, 0, 0.61);
 }
 nav a:hover{
     color: white;
 }
+img{
+    float: left;
+    border: 3px solid  rgba(255, 217, 0, 0.61);
+    border-radius: 50%;
+    margin-right: 5%;
+    margin-top: 7%;
+}
+section{
+    border: 1px solid whitesmoke;
+    border-radius: 3%;
+    background-color: white;
+    margin-left: 2%;
+    margin-right: 2%;
+    
+}
+section:not(:first-child){
+    margin-top: 3%;
+}
+.layout{
+    padding: 3% 4%;
+}
+.gold{
+    color:  rgba(255, 217, 0, 0.61);
+    font-weight: bolder;
+}
+
 .green{
     color: darkgreen;
 }
@@ -38,26 +80,50 @@ nav a:hover{
 section ul :first-child{
     font-weight: bold;
 }
+section ul li:nth-child(odd){
+    background-color: rgb(240, 239, 239);
+}
+
 thead th{
     font-weight: bold;
+}
+
+.project1{
+    background-color: beige;
+}
+.project1 span{
+    color: red;
 }
 label{
     font-weight: bold;
 }
-select:focus, input:focus, textarea:focus{
-    background-color: black;
-    color: white;
+input{
+    color: darkgreen;
 }
+select, input, textarea{
+    background-color:rgb(240, 239, 239) ;
+    color: black;
+    border-radius: 1%;
+}
+
 button{
     background-color: darkgreen;
     color: white;
     padding: 1% 10% 1% 10%;
 }
-span{
+button:hover{
+    background-color: rgba(20, 148, 48, 0.733);
+}
+footer{
     background-color: black;
     color: white;
-    display: block;
-    padding: 2% 0 2% 0;
     text-align: center;
+    width: 100%;
+    padding: 5% 0 5% 0;
+    margin-top: 2%;
+}
+footer span {
+    text-align: center;
+    
 }
 
